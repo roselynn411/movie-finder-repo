@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test --exit",
-	"start": "node server/index.js"
+    "start": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
+    "body-parser": "^1.19.0",
     "morgan": "^1.8.2"
   },
   "devDependencies": {
